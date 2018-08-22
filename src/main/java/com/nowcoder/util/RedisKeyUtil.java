@@ -5,7 +5,7 @@ public class RedisKeyUtil {
     public static String BIZ_LIKE ="LIKE";
     public static String BIZ_DISLIKE ="DISLIKE";
     public static String BIZ_EVENT = "EVENT";
-
+    //事件
     public static String getEventQueueKey(){
         return BIZ_EVENT;
     }
